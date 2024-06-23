@@ -1,0 +1,56 @@
+.addForm {
+  width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addForm h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addForm input[type="text"],
+.addForm input[type="email"],
+.addForm input[type="date"],
+.addForm input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.addForm label {
+  margin-right: 10px;
+}
+
+.addForm button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ff4d00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addForm button:hover {
+  background-color: #971515;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}

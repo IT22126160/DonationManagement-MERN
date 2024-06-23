@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+} */
+
+.middle {
+    display: flex;
+    flex: 1;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.space-between {
+    flex: 1;
+}
+
+/* Adjustments for buttons */
+button {
+    margin-bottom: 10px;
+}
+
+/* Adjustments for image */
+/* img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+} */
+
+/* Adjustments for headers */
+/* h1, h2, h3 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold; 
+} */
+
+
+
+
+
+
+
+.internship-button,
+.job-button,
+.volunteer-button {
+    width: 50%; /* Adjust width of buttons */
+}
+
+.Share-button {
+    margin-top: 10px;
+    display: inline-block; /* Display buttons inline */
+    margin-right: 10px; /* Add space between buttons */
+    padding: 10px 20px;
+    background-color: #ec8600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.Share-button:hover{
+    background-color: #732901;
+}
+
+
+/* Buttons */
+.internship-button,
+.job-button,
+.volunteer-button {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff4d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Button hover effect */
+.internship-button:hover,
+.job-button:hover,
+.volunteer-button:hover {
+    background-color: #971515;
+}

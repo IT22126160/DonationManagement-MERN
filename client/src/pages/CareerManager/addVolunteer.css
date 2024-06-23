@@ -1,0 +1,64 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0; 
+  }
+  
+  .header {
+    padding: 20px;
+  }
+  
+  .addForm {
+    width: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff4d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background-color: #971515;
+  }

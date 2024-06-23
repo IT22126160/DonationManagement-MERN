@@ -1,0 +1,34 @@
+.navbar {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 15px 7%;
+  transition: 0.5s;
+}
+
+ul {
+  flex: 3;
+  list-style: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 20px 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+li:hover {
+  color: orange;
+}
+.toggle-icon {
+  width: 50px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.dark .navbar {
+  background: #696969;
+  color: rgb(255, 255, 255);
+}
